@@ -249,12 +249,10 @@ Copyright 2025, Battelle Energy Alliance, LLC
 - **Yalei Tang**  
   Contact: [yalei.tang@inl.gov](mailto:yalei.tang@inl.gov)
 
-- **Jeremy Sharapov**  
-  Contact: [Jeremy.Sharapov@inl.gov](mailto:Jeremy.Sharapov@inl.gov)
-
 - **Mukesh Bachhav**  
   Contact: [mukesh.bachhav@inl.gov](mailto:vmukesh.bachhav@inl.gov)
 
 - **Matthew W. Anderson**  
   Contact: [matthew.anderson2@inl.gov](mailto:matthew.anderson2@inl.gov)
 
+Special thanks to Jeremy Sharapov who assisted in testing the repository.
