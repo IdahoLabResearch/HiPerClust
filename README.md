@@ -10,6 +10,7 @@ Designed for both microscopy analysis workflows and research, it enables reprodu
     <em> Figure 1: Flowchart of the proposed framework. </em>
 </p>
 
+** Please use git-lfs to clone this repository. If you do not, the complete data will not be pulled.**
 
 ## 1. Overview
 
