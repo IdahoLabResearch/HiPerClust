@@ -10,7 +10,7 @@ Each `synthetic_*_img.mat` file contains several variables, with the following b
     - elementID: Atomic species (not relevant for - this project, can be ignored).  
     - label: Cluster assignment (label=-1, noise points; label=1-N, Cluster labels).
 
-2. `data` (cell array)  
+2. `data`    
 * `data` is an i × j × k cell array created by partitioning the `Data` into subvolumes (based on `cube_size`).  
 * Each subvolume will be projected onto the XY, XZ, and YZ planes to generate RGB images. These images are saved in the user-defined output folder during preprocessing.
 
