@@ -4,14 +4,14 @@ This folder contains 630 synthetic datasets (.mat files) intended to be preproce
 
 ## 📂 File Contents
 Each `synthetic_*_img.mat` file contains several variables, with the following being the most important:  
-1. `Data`..
+1. `Data`  
 * Format: [x, y, z, elementID, label]  
     - x, y, z: Atom coordinates.  
     - elementID: Atomic species (not relevant for - this project, can be ignored).  
-    - label: Cluster assignment (label=-1, noise points; label=1-N, Clsuter labels).
+    - label: Cluster assignment (label=-1, noise points; label=1-N, Cluster labels).
 
 2. `data` (cell array)  
-* `data` is an i × j × k cell array created by partitioning the full dataset into subvolumes (based on `cube_size`).  
+* `data` is an i × j × k cell array created by partitioning the `Data` into subvolumes (based on `cube_size`).  
 * Each subvolume will be projected onto the XY, XZ, and YZ planes to generate RGB images. These images are saved in the user-defined output folder during preprocessing.
 
 3. `groundtruth`  
